@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.foto{
+
+    border-radius: 262px;
+    width: 70%;
+    transition: transform 2s ease;
+    transition: 2s;
+    
+}
+.foto:hover{
+    scale: 1.1;
+    transform:rotatey(180deg);
+    border-radius:0px;
+}
+
+
+.container{
+    display: flex;
+}
+.hilera{
+    width: 33%;
+    padding: 25px;
+    border: solid black 1px;
+}
+.perfil{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.proyectos{
+    text-align: justify;
+    padding: 15px;
+}
+.idiomas{
+    text-align: left;
+}
+
+ul{
+    margin: 30px;
+}
+
+li{
+    text-align: left;
+    list-style: circle;
+}
+h3{
+    text-align: left;
+}
+h4{
+    text-align: left;
+}
