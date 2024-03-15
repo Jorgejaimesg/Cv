@@ -1,55 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Lora:ital,wght@0,400..700;1,400..700&family=Nabla&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
 *{
     margin: 0;
     padding: 0;
     text-align: center;
-}
+    font-family: "Lora", serif;
+    font-size: 20px;}
+.container{
+    display: flex;}
+.hilera{
+    width: 33%;
+    border: solid black 1px;}
 .foto{
 
     border-radius: 262px;
     width: 70%;
-    transition: transform 2s ease;
-    transition: 2s;
-    
-}
+    transition: 1s;}
 .foto:hover{
     scale: 1.1;
-    transform:rotatey(180deg);
-    border-radius:0px;
-}
-
-
-.container{
-    display: flex;
-}
-.hilera{
-    width: 33%;
-    padding: 25px;
-    border: solid black 1px;
-}
+    border-radius:10px;}
+.fotofondo:hover{
+    background-color: rgb(70, 128, 208);}
+.nombre{
+    text-align: center;
+    font-size: x-large;}
 .perfil{
     text-align: justify;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10%;
+    padding-right: 10%;}
+.links{ 
+    padding-left: 10%;}
+a{  
+    text-decoration: none;
+    align-items: center;
+    display:flex;
+    transition: 1.5s;}
+a:hover{
+    scale: 1.1;
+    padding-left: 50px;}
+a:visited{
+    color: black;}
+.logos{
+    width: 40px;}
+.titulo{
+    background-color: rgb(23, 61, 114);
+    color: aliceblue;
+}
+.estudios{
+    padding: 10%;
+    text-align: justify;
+}
+.fecha{
+    display: block;
+    text-align: right;
+    font-size: small;
+}
+.proyectoinfo{
+    padding-left: 5%;
+    text-align: justify;
 }
 .proyectos{
-    text-align: justify;
-    padding: 15px;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .idiomas{
+    padding: 10%;
     text-align: left;
 }
-
+.stacks{
+    padding:10%;
+}
 ul{
     margin: 30px;
+    padding-left: 5%;
 }
 
 li{
     text-align: left;
-    list-style: circle;
+    list-style:disc;
 }
 h3{
     text-align: left;
+    font-size: x-large;
 }
-h4{
-    text-align: left;
+h2{
+    font-size: xx-large;
+    text-align: center;
 }
