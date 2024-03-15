@@ -6,49 +6,81 @@
     text-align: center;
     font-family: "Lora", serif;
     font-size: 20px;}
+body{
+    background-color: white;
+    border-bottom: 100px;
+}
 .container{
-    display: flex;}
+    display: flex;
+    border:solid rgb(23, 61, 114)1px;
+}
 .hilera{
-    width: 33%;
-    border: solid black 1px;}
+    width: 33.4%;
+    border: solid rgb(23, 61, 114)1px;
+}
 .foto{
-
-    border-radius: 262px;
-    width: 70%;
-    transition: 1s;}
+    border-radius: 300px;
+    width: 100%;
+    transition: 1s;
+}
 .foto:hover{
     scale: 1.1;
-    border-radius:10px;}
+    border-radius:10px;
+}
+.fotofondo{
+    padding :4.5%;
+    background-color:  rgb(23, 61, 114);
+}
 .fotofondo:hover{
-    background-color: rgb(70, 128, 208);}
+    background-color:  rgb(11, 34, 68);
+}
 .nombre{
     text-align: center;
-    font-size: x-large;}
+    font-size: x-large;
+    transition: 1.5s;
+}
 .perfil{
     text-align: justify;
     padding-left: 10%;
-    padding-right: 10%;}
+    padding-right: 10%;
+    transition: 1.5s;
+}
+.perfil:hover,.nombre:hover,.links:hover,.estudios:hover,.proyectos:hover,.idiomas:hover,.stacks:hover{
+    background-color: rgb(223, 222, 222);
+}
 .links{ 
-    padding-left: 10%;}
+    padding-left: 10%;
+    transition: 1.5s;
+}
 a{  
     text-decoration: none;
     align-items: center;
     display:flex;
-    transition: 1.5s;}
+    transition: 1.5s;
+}
 a:hover{
     scale: 1.1;
-    padding-left: 50px;}
+    padding-left: 50px;
+}
 a:visited{
-    color: black;}
+    color: black;
+}
 .logos{
-    width: 40px;}
+    width: 40px;
+}
 .titulo{
     background-color: rgb(23, 61, 114);
     color: aliceblue;
+    padding: 5%;
+    transition: 1.5s;
+}
+.titulo:hover{
+    background-color:  rgb(11, 34, 68);
 }
 .estudios{
     padding: 10%;
     text-align: justify;
+    transition: 1.5s;
 }
 .fecha{
     display: block;
@@ -60,22 +92,25 @@ a:visited{
     text-align: justify;
 }
 .proyectos{
+    padding-top: 10%;
     text-align: left;
     padding-left: 10%;
     padding-right: 10%;
+    transition: 1.5s;
 }
 .idiomas{
-    padding: 10%;
+    padding: 5.78%;
     text-align: left;
+    transition: 1.5s;
 }
 .stacks{
     padding:10%;
+    transition: 1.5s;
 }
 ul{
     margin: 30px;
     padding-left: 5%;
 }
-
 li{
     text-align: left;
     list-style:disc;
@@ -87,4 +122,27 @@ h3{
 h2{
     font-size: xx-large;
     text-align: center;
+    transition: 1.5s;
 }
+h2:hover{
+    scale: 1.2;
+}
+hr{
+    border-color:rgb(23, 61, 114);
+}
+footer{
+    position:fixed;
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    background-color: rgb(24, 68, 11);
+    bottom: 0;
+}
+.textfooter{
+    position: relative;
+    inset: 0;
+    margin: auto;
+    align-items: center;
+    width: max-content;
+    height: min-content;
+    color: aliceblue;}
